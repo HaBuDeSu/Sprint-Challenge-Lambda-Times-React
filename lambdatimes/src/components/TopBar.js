@@ -9,7 +9,6 @@ const TopBarDiv = styled.div`
   justify-content: center;
   align-items: none;
   flex-direction: row;
-  position: fixed;
   height: 44px;
   background-color: #333;
 `;
@@ -76,7 +75,6 @@ const RightSpan = styled.span`
 
 const TopBar = () => {
   return (
-    <div>
       <TopBarDiv>
         <ContainerDiv>
           <LeftContainerDiv>
@@ -90,8 +88,7 @@ const TopBar = () => {
           </RightContainerDiv>
         </ContainerDiv>
       </TopBarDiv>
-    </div>
   )
-}
+};
 
 export default TopBar;
