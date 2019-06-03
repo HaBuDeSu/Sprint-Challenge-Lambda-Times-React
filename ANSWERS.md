@@ -16,4 +16,4 @@ A Higher Order Component is a component that takes a component as an argument an
 
 1. CSS Stylesheets - This lets you separate your styling from your functionality.
 2. Styled-Components - This lets you add styling as part of the component itself.
-3. CSS in JavaScript Libraries - This lets you use pre-styled components.
+3. CSS in JavaScript Libraries - This lets you use pre-styled components. Very useful if you're not that good at design.
