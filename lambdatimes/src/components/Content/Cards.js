@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from './Card';
 import PropTypes from 'prop-types';
 
@@ -12,6 +12,7 @@ const Cards = props => {
           return (
             <Card
               card={card}
+              key={card.headline}
             />
           )
         })}
