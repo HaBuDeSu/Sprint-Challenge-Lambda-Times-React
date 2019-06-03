@@ -15,5 +15,5 @@ A Higher Order Component is a component that takes a component as an argument an
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
 1. CSS Stylesheets - This lets you separate your styling from your functionality.
-2. Styled-Components -
-3. CSS in JavaScript Libraries
+2. Styled-Components - This lets you add styling as part of the component itself.
+3. CSS in JavaScript Libraries - This lets you use pre-styled components.
